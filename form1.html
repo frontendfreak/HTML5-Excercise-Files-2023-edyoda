@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML5 Forms</title>
+  </head>
+  <body>
+    <!-- ! Intput Element and its types -->
+
+    <!-- ** <input> is a self closing tag -->
+    <!-- ** By default it will be type of "text" -->
+    <!-- <input> -->
+    <!-- <input type="text"> -->
+
+    <!-- <input type="email"> -->
+
+    <!-- <input type="password"> -->
+
+    <!-- <input type="tel"> -->
+
+
+    <!-- 1e2
+
+    1 * (10 ** 2)
+
+    1 * (10 * 10)
+
+    1 * 100
+
+    100 -->
+    <!-- <input type="number"> -->
+
+    <!-- <input type="month"> -->
+
+    <!-- <input type="date"> -->
+
+    <!-- ** This type is depricated -->
+    <!-- <input type="datetime"> -->
+
+    <!-- <input type="datetime-local"> -->
+
+    <!-- <input type="week"> -->
+
+    <!-- <input type="image" src="img/logo2.png" alt="Image has broken" width="100"> -->
+
+    <!-- <input type="button" value="Click here"> -->
+
+    <!-- <input type="submit" value="go ahead"> -->
+
+    <!-- <input type="reset" value="Clear form"> -->
+
+    <!-- <input type="color" value="#ff0000"> -->
+
+    <!-- <input type="url"> -->
+
+    <!-- <input type="search"> -->
+
+    <!-- <input type="hidden" value="2345455"> -->
+
+    <!-- <input type="file"> -->
+
+    <!-- <input type="range"> -->
+
+    <!-- <input type="radio" name="course">DevOps
+    <input type="radio" name="course">MERN Stack
+    <input type="radio" name="course1">ML
+    <input type="radio" name="course1">MEAN Stack
+
+    <input type="radio" name="gender">Male
+    <input type="radio" name="gender">Female -->
+
+    <!-- <p>Which game you like to play</p>
+    <input type="checkbox" name="game">Cricket
+    <input type="checkbox" name="game">Football
+    <input type="checkbox" name="game">Carrom
+    <input type="checkbox" name="game">Table Tenis -->
+
+    <!-- <label for="username">Username</label>
+    <br>
+    <input type="text" id="username">
+
+    <br>
+    <br>
+
+    <label for="email">Email</label>
+    <br>
+    <input type="email" id="email"> -->
+
+    <!-- <input type="radio" id="male" name="gender">
+    <label for="male">Male</label>
+
+    <input type="radio" id="female" name="gender">
+    <label for="female">Female</label> -->
+
+
+    <!-- ** 1. Accessibility reason (Because it is semantic element) -->
+    <!-- ** 2. It can contain any other element as well -->
+    <!-- ** 3. ::before and ::after pseudo elements selector -->
+    <!-- <button type="button">
+        <img src="img/logo2.png" alt="image" width="20"> Click here
+    </button>
+
+    <button type="submit">Submit</button>
+
+    <button type="reset">Clear form</button> -->
+
+
+    <!-- ! <form> tag -->
+
+    <!-- ** method="get" 
+        1. It will append the form data in to URL in form of name and value pairs
+
+        2. Don't use this to submit your sensitive info
+
+        3. Characters limitation upto 2048 in URL
+
+        4. You can bookmark this URL
+    -->
+
+    <!-- ** method="post" 
+        1. It will not append the form data in to URL
+
+        2. You can use this to submit your sensitive info
+
+        3. THere is no Characters limitation in URL
+
+        4. You can't bookmark this URL
+    -->
+
+    <form action="" method="get" autocomplete="off" novalidate target="_blank" name="user-info">
+        <input type="text" name="username">
+        <br>
+        <br>
+        <input type="email" name="email">
+        <br>
+        <br>
+        <!-- <input type="submit">
+        <input type="reset"> -->
+
+        <button type="submit">GO</button>
+        <button type="reset">Clear form</button>
+    </form>
+  </body>
+</html>
