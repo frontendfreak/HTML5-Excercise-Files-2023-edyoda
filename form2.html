@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Element Attributes</title>
+  </head>
+  <body>
+    <!-- ** <input> Element Attributes -->
+    <!-- <input type="text" value="Username"> -->
+
+    <!-- <form>
+        <label for="username">Username</label> <br>
+        <input type="text" placeholder="Username" title="Username" id="username">
+        <br>
+        <br>
+        <input type="email" placeholder="Email" title="Email">
+        <br>
+        <br>
+        <input type="password" placeholder="Password" title="Password">
+        <br>
+        <br>
+        <input type="password" placeholder="Password" title="Password">
+    </form> -->
+
+    <!-- <form> -->
+        <!-- <input type="text" placeholder="Full name" name="fname" required maxlength="10" minlength="3">
+        <br><br>
+
+        <input type="email" placeholder="Your email" name="email" required multiple>
+        <br><br>
+
+        <input type="password" placeholder="Password" name="pwd" pattern="[0-9a-zA-Z]{8}">
+        <br><br>
+
+        <input type="radio" id="male" name="gender" value="Male" required>
+        <label for="male">Male</label>
+        <br>
+        <input type="radio" id="female" name="gender" value="Female" required>
+        <label for="female">Female</label>
+
+        <br><br> -->
+
+        <!-- <input type="file" multiple accept=".png" capture="environment">
+        <br><br> -->
+        <!-- !
+            accept="" //Default All types of File
+            accept=".png"
+            accept=".jpg"
+            accept=".jpeg"
+            accept=".png,.svg,.jpg"
+            accept="image/.png"
+            accept="image/.png,image/.jpg"
+            accept="image/*"
+
+            accept=".pdf"
+            accept=".doc"
+            accept=".ppt"
+
+            accept="audio/.mp3"
+            accept="audio/*"
+
+            accept="video/*"
+            accept="video/.mp4"
+
+        -->
+
+        <!-- 
+            capture="user" --- Front Camera View
+            capture="environment" --- Back Camera View
+        -->
+
+        <!-- <button type="submit">Submit</button>
+    </form> -->
+
+
+    <!-- ! max value we can use for tabindex is 32767  -->
+
+    <!-- <form>
+        <input type="text" placeholder="Full name" name="fname" required maxlength="10" minlength="3" tabindex="2">
+        <br><br>
+
+        <p tabindex="0">You need to fill all the mandatory fields</p>
+
+        <input type="email" placeholder="Your email" name="email" required multiple tabindex="1" autofocus>
+        <br><br>
+
+        <input type="password" placeholder="Password" name="pwd" pattern="[0-9a-zA-Z]{8}" tabindex="3">
+        <br><br>
+
+        <input type="radio" id="male" name="gender" value="Male" required>
+        <label for="male">Male</label>
+        <br>
+        <input type="radio" id="female" name="gender" value="Female" required>
+        <label for="female">Female</label>
+
+        <br><br>
+
+        <button type="submit">Submit</button>
+    </form> -->
+
+    <form autocomplete="off">
+        <!-- <input type="text" placeholder="Full name" name="fname" required maxlength="10" minlength="3" autocomplete="name">
+        <br><br>
+
+        <input type="email" placeholder="Your email" name="email" required multiple autocomplete="email">
+        <br><br>
+
+        <input type="password" placeholder="Password" name="pwd" pattern="[0-9a-zA-Z]{8}">
+        <br><br> -->
+
+
+        <!-- 
+            username
+            email
+            current-password
+            new-password
+            one-time-code (Not Recommended)
+            cc-name (Full name)
+            cc-given-name (First name)
+            cc-additional-name (Last name)
+            cc-number (Credit/debit card no.)
+            cc-exp (MM/YY)
+            cc-month (MM)
+            cc-year (YY)
+            cc-csc (CVV (Credit/Debit card Security code))
+            cc-type (Visa/Mastercard)
+         -->
+
+
+
+
+         <!-- <input type="tel" placeholder="Mobile No." inputmode="none"> -->
+         <!-- ** none, text, email, url, decimal, search, tel -->
+
+         <!-- <input type="text" enterkeyhint=""> -->
+         <!-- ** enter, done, go, next, previous, search, send -->
+
+
+         <!-- <input type="radio" name="gender" checked>Male
+         <input type="radio" name="gender">Female -->
+
+         <!-- <input type="checkbox" name="game" checked>Cricket
+         <input type="checkbox" name="game" checked>Football -->
+
+         <!-- <input type="number" min="10" max="20" step   =".5"> -->
+
+         <input type="range" value="0" min="0" max="100" step="4">
+
+         <!-- <input type="month" min="2016-07" max="2020-07" step="2"> -->
+
+         <!-- <input type="date" min="2016-07-10" max="2020-07-04" step="1"> -->
+
+         <!-- <input type="week" min="2020-W32" max="2020-W45" step="2"> -->
+
+         <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
