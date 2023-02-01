@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>New Form Elements & Its Attributes</title>
+  </head>
+  <body>
+    <!-- ** Tabindex -->
+
+    <form>
+        <!-- <p tabindex="0">This is para</p> -->
+        <!-- <input type="text" tabindex="0">
+        <br><br>
+        <input type="text" tabindex="2">
+        <br><br>
+        <input type="text" tabindex="1">
+        <br><br>
+        <input type="text" tabindex="3">
+        <br><br> -->
+
+
+        <!-- 
+            ! Order of tabindex for the following values
+            values --- 0 1 2 3
+            order ---- 1 -> 2 -> 3 -> 0 
+        -->
+
+        <!-- <input type="range" min="0" value="10" max="100" step="20"> -->
+
+
+        <!-- <fieldset>
+            <legend align="center">Personal Info</legend>
+            <input type="text" placeholder="Full name">
+            <br><br>
+            <input type="text" placeholder="Father's Name">
+            <br><br>
+            <input type="text" placeholder="Mother's Name">
+            <br><br>
+            <input type="number" placeholder="Age">
+            <br><br>
+        </fieldset>
+
+        <fieldset>
+            <legend align="right">Address</legend>
+            <input type="text" placeholder="Current Address">
+            <br><br>
+            <input type="text" placeholder="Permanent Address">
+            <br><br>
+            <input type="text" placeholder="City">
+            <br><br>
+            <input type="number" placeholder="ZIP Code">
+            <br><br>
+        </fieldset> -->
+
+        <!-- ! "align" attribute we can use for text alignment in <legend> tag [left, center, right] -->
+
+
+
+
+
+        <!-- <textarea rows="2" cols="20" placeholder="Feedback" spellcheck="true"></textarea> -->
+
+        <!-- <button type="submit">Submit</button> -->
+
+
+        <!-- <p translate="yes">I am working in <span translate="no">Microsoft</span></p> -->
+
+        <!-- <p contenteditable="true">This para is non-editable</p> -->
+
+
+        <!-- <input type="text" name="fname" placeholder="Full Name" value="Danish" readonly>
+        <br><br>
+        <input type="text" name="company" placeholder="Organization" value="Microsoft" disabled>
+        <br><br> -->
+
+        <!-- **
+            readonly
+            1. You won't be able to edit its value
+            2. You can submit readonly field values to the server
+            3. on tab press readonly field will be focused
+
+            disabled
+            1. You won't be able to edit its value
+            2. You can't submit disabled field values to the server
+            3. on tab press disabled field will not be focused
+        -->
+
+        <!-- <button type="submit">Submit</button> -->
+
+
+        <!-- <select name="branch" multiple size="3">
+            <optgroup label="Diploma">
+                <option value="Computer Science" disabled>CSE</option>
+                <option value="Mechanical" selected>ME</option>
+                <option value="Civil" selected>CE</option>
+            </optgroup>
+
+            <optgroup label="B. Tech">
+                <option value="Computer Science">CSE</option>
+                <option value="Mechanical">ME</option>
+                <option value="Electrical">EEE</option>
+            </optgroup>
+        </select> -->
+
+        <!-- <input type="text" placeholder="Search food" list="food">
+
+        <datalist id="food">
+            <option value="Milk">Milk</option>
+            <option value="Mango">Mango</option>
+            <option value="Egg">Egg</option>
+            <option value="Bread">Bread</option>
+            <option value="Butter">Butter</option>
+        </datalist> -->
+
+
+        <!-- <input type="range" min="0" max="100" step="10" value="0" list="range">
+
+        <datalist id="range">
+            <option value="0">0</option>
+            <option value="10">10</option>
+            <option value="20">20</option>
+            <option value="30">30</option>
+            <option value="40">40</option>
+            <option value="50">50</option>
+            <option value="60">60</option>
+            <option value="70">70</option>
+            <option value="80">80</option>
+            <option value="90">90</option>
+            <option value="100">100</option>
+        </datalist> -->
+
+
+        <details open>
+            <summary>Fruits</summary>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet in itaque facilis aspernatur voluptatum hic atque nobis aut quis quae asperiores debitis eius, reiciendis error corporis consequatur, delectus inventore possimus!</p>
+        </details>
+        <details open>
+            <summary>Veg</summary>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet in itaque facilis aspernatur voluptatum hic atque nobis aut quis quae asperiores debitis eius, reiciendis error corporis consequatur, delectus inventore possimus!</p>
+        </details>
+        <details>
+            <summary>Non-Veg</summary>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet in itaque facilis aspernatur voluptatum hic atque nobis aut quis quae asperiores debitis eius, reiciendis error corporis consequatur, delectus inventore possimus!</p>
+        </details>
+
+        <!-- <br><br>
+        <button type="submit">Submit</button> -->
+    </form>
+  </body>
+</html>
