@@ -1,0 +1,151 @@
+WEBVTT
+
+00:00.330 --> 00:01.590
+Everyone welcome back.
+
+00:01.800 --> 00:06.820
+So this section is a continuation or it accompanies a previous section they're meant to go together.
+
+00:06.870 --> 00:09.690
+So if you didn't watch that one I'd definitely recommend you start there.
+
+00:09.690 --> 00:13.860
+I say that about pretty much everything but in particular these two go hand-in-hand.
+
+00:13.860 --> 00:18.030
+So we're still talking about algorithms difficult problems to solve.
+
+00:18.030 --> 00:21.990
+How do you even approach a difficult problem how do you get better at solving them whether it's in an
+
+00:21.990 --> 00:24.770
+interview or on a side project to working on.
+
+00:25.110 --> 00:30.630
+So we talked about sort of two different steps or two things devising a plan for solving problems before
+
+00:30.630 --> 00:31.790
+you write a line of code.
+
+00:31.800 --> 00:34.920
+How do you even approach a new problem something that's real.
+
+00:35.010 --> 00:36.400
+Real head scratcher.
+
+00:36.540 --> 00:40.340
+And then the second thing is mastering common problem solving patterns.
+
+00:40.350 --> 00:44.670
+So the last section was devoted to that first point to make that clear.
+
+00:44.880 --> 00:46.040
+Lovely green color.
+
+00:46.200 --> 00:47.230
+So we're done with that.
+
+00:47.250 --> 00:48.540
+We talked about an approach.
+
+00:48.570 --> 00:53.530
+Now we're going to talk about some common patterns that sometimes can come in handy.
+
+00:53.730 --> 00:58.490
+And I want to say that this section can be a bit of a letdown this material.
+
+00:58.530 --> 01:05.070
+I've seen a lot of students sort of get disappointed because they built it up as some sort of cure all
+
+01:05.280 --> 01:08.400
+little notebook of patterns that they need to memorize.
+
+01:08.520 --> 01:12.020
+And then every problem they ever face every interview challenge every face.
+
+01:12.030 --> 01:14.920
+They'll know exactly what to do and that's not the case at all.
+
+01:14.940 --> 01:20.400
+In reality there are some common patterns that we'll discuss that do apply to multiple problems.
+
+01:20.400 --> 01:25.560
+There are common approaches to writing code sort of archetypes or problem but that does not mean that
+
+01:25.560 --> 01:28.270
+you cover every possible scenario on earth.
+
+01:28.380 --> 01:30.880
+So it might help you in one out of five.
+
+01:30.880 --> 01:33.250
+One out of 10 challenges you have to face.
+
+01:33.360 --> 01:38.190
+But even if it's only 1 out of 10 that's still helpful and worth knowing.
+
+01:38.220 --> 01:42.090
+So there are lots of these patterns and some of them have names that are official.
+
+01:42.090 --> 01:45.120
+Some of them have not official but names that are recognized.
+
+01:45.120 --> 01:49.720
+Other people like divide and conquer for example or greedy algorithms.
+
+01:49.920 --> 01:54.390
+But some of them are things that aren't necessarily well-known names.
+
+01:54.390 --> 01:59.700
+The concept might be well-known but if you tried to google something like frequency counter as far as
+
+01:59.700 --> 02:06.080
+I know you'll probably find more results about a detector for counting the frequency of a sound or a
+
+02:06.080 --> 02:07.170
+wave form or something.
+
+02:07.240 --> 02:08.620
+That's what that is.
+
+02:08.640 --> 02:13.290
+So some of these aren't really official terminology but all of these are different approaches different
+
+02:13.290 --> 02:15.120
+patterns for writing code.
+
+02:15.180 --> 02:18.470
+And when I say pattern I think that can get a little confusing.
+
+02:18.570 --> 02:23.840
+I like to think of them as sort of programming mechanisms different pieces that you can put in or or
+
+02:24.040 --> 02:25.310
+through a blueprint.
+
+02:25.320 --> 02:27.000
+I think I've said that a couple of times.
+
+02:27.120 --> 02:29.260
+So we're going to start off with a frequency counter.
+
+02:29.280 --> 02:33.740
+We're not going to cover all of these in this one section but we're going to cover a couple of them.
+
+02:33.750 --> 02:39.120
+And the way it will work is I'll introduce the idea explain it and then do an example where I show you
+
+02:39.840 --> 02:41.940
+sort of a poorly written solution to a problem.
+
+02:42.030 --> 02:46.470
+The naive approach and then the approach using the pattern that I'm introducing and then I'm going to
+
+02:46.470 --> 02:51.030
+try and give you as many opportunities to practice on your own with exercises and solutions and that
+
+02:51.030 --> 02:51.690
+sort of thing.
+
+02:51.690 --> 02:55.860
+So first up we're going to talk about the frequency counter pattern that's coming up next.
